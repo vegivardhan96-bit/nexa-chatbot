@@ -8,7 +8,7 @@ const sendBtn = document.getElementById("send-btn");
 const chatHistory = [
   {
     role: "assistant",
-    content: "Hello ! I am an AI assistant here to help with an AI-based mechanical fault diagnosis system! 😊 My role is to support a project that uses a rule-based expert system and a Decision Tree ML model to detect faults such as overheating, bearing wear, misalignment, lubrication issues, cavitation, and general wear using inputs like temperature, vibration, noise, rpm, pressure, and runtime hours. I’ll always keep my responses focused on this project, predictive maintenance, mechanical diagnostics, rule-based reasoning, and machine learning for rotating machinery.\n\nIf anything you ask is unclear, I’ll interpret it within the context of this fault diagnosis bot, and I’ll avoid unrelated AI topics unless you specifically request them.",
+    content: "Hello! 😊 I’m your AI assistant for mechanical fault diagnosis. I analyze inputs like temperature, vibration, noise, rpm, pressure, and runtime hours to help identify issues such as overheating, bearing wear, misalignment, lubrication problems, cavitation, and general wear. I use a mix of rule-based reasoning and machine-learning logic to give accurate, maintenance-focused answers. Throughout the conversation, I’ll keep my responses strictly aligned with mechanical diagnostics and fault detection. If any question is unclear, I’ll interpret it in the context of this fault diagnosis system and avoid unrelated topics unless you ask for them.",
   },
 ];
 
@@ -85,3 +85,4 @@ form.addEventListener("submit", (e) => {
   if (!text) return;
   sendMessage(text);
 });
+
